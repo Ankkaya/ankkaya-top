@@ -31,7 +31,7 @@ console.log({
               class="link-item"
               :style="{ transitionDuration: (index + 1) * 0.5 + 's' }"
             >
-              <NuxtLink
+              <!-- <NuxtLink
                 :to="link.url"
                 :title="link.name"
                 :target="link.name"
@@ -52,7 +52,7 @@ console.log({
                   weight="fill"
                   class="w-8 h-8 icon"
                 />
-              </NuxtLink>
+              </NuxtLink> -->
             </li>
           </ul>
         </div>
