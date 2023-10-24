@@ -10,20 +10,22 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@heroicons/vue": "^2.0.18",
     "@nuxt/content": "^2.8.5",
     "@nuxt/devtools": "^1.0.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "@phosphor-icons/vue": "^2.1.6",
     "@tailwindcss/forms": "^0.5.6",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.8.8",
     "@types/request": "^2.48.11",
     "@vueuse/core": "^10.5.0",
-    "@vueuse/motion": "^2.0.0",
     "@vueuse/nuxt": "^10.5.0",
     "nuxt": "^3.8.0",
     "vue": "^3.3.6",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "@phosphor-icons/vue": "^2.1.6",
+    "@vueuse/motion": "^2.0.0"
   }
 }

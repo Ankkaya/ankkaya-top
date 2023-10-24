@@ -1,5 +1,5 @@
 <script setup>
-// import { PhTwitterLogo, PhGithubLogo, PhTiktokLogo } from "@phosphor-icons/vue";
+import { PhTwitterLogo, PhGithubLogo, PhTiktokLogo } from "@phosphor-icons/vue";
 
 const { data: home, error } = await useAsyncData("index", async () => {
   const data = await queryContent("/").findOne();
@@ -31,7 +31,7 @@ console.log({
               class="link-item"
               :style="{ transitionDuration: (index + 1) * 0.5 + 's' }"
             >
-              <!-- <NuxtLink
+              <NuxtLink
                 :to="link.url"
                 :title="link.name"
                 :target="link.name"
@@ -52,7 +52,7 @@ console.log({
                   weight="fill"
                   class="w-8 h-8 icon"
                 />
-              </NuxtLink> -->
+              </NuxtLink>
             </li>
           </ul>
         </div>
