@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-white dark:bg-space-cadet-900 text-space-cadet-800 dark:text-space-cadet-100;
+}
+
+@layer base {
+  @font-face {
+    font-family: WenQuanWeiMiHei;
+    src: url('assets/fonts/WenQuanWeiMiHei.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: ChaoZiSheKongHaiXinJingJianFan;
+    src: url('assets/fonts/ChaoZiSheKongHaiXinJingJianFan.ttf') format('truetype');
+  }
+}
+
+@layer components {
+  .icon {
+    @apply w-5 h-5 shrink-0 text-space-cadet-800 dark:text-space-cadet-50;
+  }
+
+  .cta {
+    @apply p-1.5 px-2 bg-space-cadet-100 dark:bg-space-cadet-800 border border-space-cadet-200 dark:border-space-cadet-700 cursor-pointer rounded-3xl;
+  }
+
+  .cta:has(.icon) {
+    @apply flex items-center;
+  }
+
+  .cta .text {
+    @apply px-2;
+  }
+
+  .img-cont > img {
+    @apply object-cover w-full h-full;
+  }
+
+  /* site */
+
+  .site-main {
+    @apply min-h-[calc(100vh-20rem)];
+  }
+
+  .site-section {
+    @apply px-4 py-8 lg:px-8 lg:py-20;
+  }
+
+  .site-section > .wrapper {
+    @apply w-full mx-auto max-w-7xl;
+  }
+
+  .site-section .site-section-header {
+    @apply mb-6 lg:mb-12;
+  }
+
+  .site-section-header > .wrapper {
+    @apply flex flex-col gap-2;
+  }
+
+  .site-section-header .pre-title {
+    @apply mb-4 font-semibold uppercase opacity-60;
+  }
+
+  .site-section-header .title {
+    @apply text-2xl font-bold font-heading lg:text-3xl;
+  }
+
+  .site-section-header .text {
+    /* @apply text-2xl; */
+  }
+
+  .site-footer {
+    @apply px-8 py-8;
+  }
+  .site-footer > .wrapper {
+    @apply w-full mx-auto max-w-7xl;
+  }
+
+  .page-header {
+    @apply pt-8 pb-6 lg:pt-36 lg:pb-20;
+  }
+
+  /* .page-header > .wrapper {
+    @apply
+  } */
+
+  .page-header > .wrapper > * {
+    @apply max-w-3xl;
+  }
+
+  .page-header .title {
+    @apply text-3xl lg:text-5xl;
+  }
+  /* blog */
+
+  .articles-page-header {
+    @apply p-4 my-12 lg:mt-44;
+  }
+
+  .articles-page-header > .wrapper {
+    @apply w-full max-w-4xl px-6 m-auto;
+  }
+
+  .articles-list-section .articles-list {
+    @apply grid w-full max-w-4xl m-auto lg:grid-cols-1;
+  }
+
+  .tags {
+    @apply flex flex-wrap gap-2;
+  }
+
+  .tags .tag {
+    @apply px-3 py-1 text-xs font-semibold border cursor-pointer font-heading bg-vivid-indigo-100 text-vivid-indigo-500 dark:text-vivid-indigo-100 border-vivid-indigo-200 dark:bg-vivid-indigo-700 dark:border-vivid-indigo-600 rounded-3xl;
+  }
+}
