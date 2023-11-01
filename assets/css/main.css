@@ -13,11 +13,12 @@ body {
 @layer base {
   @font-face {
     font-family: WenQuanWeiMiHei;
-    src: url('assets/fonts/WenQuanWeiMiHei.ttf') format('truetype');
+    src: url("assets/fonts/WenQuanWeiMiHei.ttf") format("truetype");
   }
   @font-face {
     font-family: ChaoZiSheKongHaiXinJingJianFan;
-    src: url('assets/fonts/ChaoZiSheKongHaiXinJingJianFan.ttf') format('truetype');
+    src: url("assets/fonts/ChaoZiSheKongHaiXinJingJianFan.ttf")
+      format("truetype");
   }
 }
 

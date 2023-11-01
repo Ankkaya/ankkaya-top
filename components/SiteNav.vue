@@ -49,7 +49,7 @@ watch(
   @apply invisible opacity-0 pointer-events-none;
   @apply lg:visible lg:opacity-100 lg:pointer-events-auto;
 }
-.site-nav.active {
+.site-nav .active {
   @apply visible opacity-100 pointer-events-auto;
 }
 .site-nav > .wrapper {

@@ -26,6 +26,9 @@
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
     "@phosphor-icons/vue": "^2.1.6",
-    "@vueuse/motion": "^2.0.0"
+    "@vueuse/motion": "^2.0.0",
+    "reading-time": "^1.5.0",
+    "request": "^2.88.2",
+    "simple-git": "^3.20.0"
   }
 }

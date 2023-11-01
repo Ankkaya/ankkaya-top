@@ -12,6 +12,6 @@
   @apply fixed bottom-0 left-0 right-0;
 }
 .site-footer > .wrapper {
-  @apply flex gap-4;
+  @apply flex;
 }
 </style>

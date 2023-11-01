@@ -9,8 +9,8 @@ export const useSiteNavLinks = () =>
       text: "Blog",
     },
     {
-      path: "/other",
-      text: "Other",
+      path: "/category",
+      text: "Category",
     },
     {
       path: "/about",

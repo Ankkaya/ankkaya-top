@@ -83,7 +83,7 @@ useHead({
       <div class="cover-img img-cont">
         <img
           ref="coverImgRef"
-          :src="`/assets/img${article?._path}/cover.png`"
+          :src="`/assets/img${article?._path}/cover.webp`"
           :alt="article?.title"
         />
       </div>
