@@ -5,7 +5,7 @@ import readingTime from "reading-time";
 import simpleGit from "simple-git";
 import { useAsyncData } from "nuxt/app";
 
-const api = "http://101.43.181.163:8080/getBingImage";
+const api = "https://bing.jiandyb9834.xyz/getBingImage";
 
 const formatDate = (date: string | number | Date) => {
   // format the date to be displayed in a readable format
