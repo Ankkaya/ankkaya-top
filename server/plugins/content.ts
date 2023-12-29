@@ -66,11 +66,11 @@ const getCover = async (options: any) => {
   console.log("🥶🥶", options);
 
   const res = await fetch(api);
-  const url = await res.text();
+  const result = await res.json();
 
-  console.log("🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶", url);
+  console.log("🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶🥶", result);
   return {
-    url: url,
+    url: result.url,
   };
 };
 

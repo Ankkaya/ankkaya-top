@@ -50,7 +50,7 @@ console.log({ type, summary });
 
 <style scoped>
 .info-box {
-  @apply flex items-start gap-2 p-4 bg-space-cadet-100 dark:bg-space-cadet-800 border border-space-cadet-200 dark:border-space-cadet-700 text-space-cadet-500 dark:text-space-cadet-100 rounded-lg;
+  @apply flex items-start gap-2 p-4 bg-space-cadet-100 dark:bg-space-cadet-800 border border-space-cadet-200 dark:border-space-cadet-700 text-space-cadet-500 dark:text-space-cadet-100 rounded-lg mb-4;
 }
 
 details summary {
